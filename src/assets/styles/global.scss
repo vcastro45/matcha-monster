@@ -1,0 +1,14 @@
+.event {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 0 !important;
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &.raised {
+    font-size: 60px !important;
+    opacity: 1;
+  }
+}
